@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* reset */
+dl, dd, h1, h2, h3, h4, h5, h6, p, form{margin:0;}
+body,ol,li,ul{margin:0; padding:0;}
+
+/* public */
+html{
+    font-size:62.5%; /* 10÷16=62.5% */
+}
+body {
+	background: #e8e8e8;
+	color: #fff;
+}
+
+/* header */
+header {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background: #5fc0cd;
+	font-size: 1.6rem;
+	text-align: center;
+}
+header span {
+	line-height: 80px;
+}
+header .hd-sign-up {
+	position: absolute;
+	left: 10%;
+}
+header .hd-close {
+	position: absolute;
+	right: 10%;
+}
+
+/* main */
+main .main-login img{
+	width: 15px;
+	margin-left: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #ccc;
+}
+main .main-login input{
+	display: inline-block;
+	padding-left: 5px;
+	border: 0;
+	height: 40px;
+	width: 70%;
+}
+main .login-username {
+	margin-top: 7px;
+	background: #fff;
+}
+main .login-password {
+	margin-top: 7px;
+	background: #fff;
+}
+main .login-submit {
+	margin-top: 10px;
+}
+main .login-submit input[type="button"] {
+	background: #5fc0cd;
+	display: block;
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	font-size: 1rem;
+}
+main .login-forget {
+	margin-top: 5px;
+	margin-right: 5px;
+	text-align: right;
+}
+main .login-forget a{
+	color: #66ccff;
+}
+main .valign-midd{
+	vertical-align: middle;
+}
+input {outline:none;}
